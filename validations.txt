@@ -1,0 +1,16 @@
+import java.util.regex.Pattern;
+
+
+//email validation
+
+String emailval = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$";
+ 
+Pattern pattern = Pattern.compile(emailVal);
+
+//----------------------------------------------
+
+//password validation
+
+String pwdVal = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{8,20}$";
+
+Pattern pattern = Pattern.compile(pwdVal);
